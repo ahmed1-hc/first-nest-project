@@ -1,6 +1,6 @@
 import { IUsers } from './IUsers';
 
-export const users: IUsers[] = [
+export const Users: IUsers[] = [
   {
     id: 1,
     firstName: 'Terry',

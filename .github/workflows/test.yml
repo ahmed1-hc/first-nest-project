@@ -27,10 +27,10 @@ jobs:
         run: yarn install --prefer-offline --frozen-lockfile
 
       - name: Check that the code is valid Typescript
-        run: yarn tsc --parallel
+        run: yarn tsc
 
       - name: Check that the code passes linting
-        run: yarn lint --parallel
+        run: yarn lint
 
       - name: Run package tests
-        run: yarn test --parallel
+        run: yarn test

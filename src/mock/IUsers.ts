@@ -1,8 +1,3 @@
-enum Gender {
-  male = 'Male',
-  female = 'Female',
-}
-
 interface Address {
   address: string;
   city: string;
